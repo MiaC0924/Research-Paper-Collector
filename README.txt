@@ -1,12 +1,16 @@
-Q1 ————————————————————————
-Output: no output on this step
-Common: easy to be added
+Research-Paper-Collector
+Java
 
-Q2 ————————————————————————
-Output: no output on this step
-Common: remember to check if the paper does not exist (null)
+Comment on PaperDBModel.java
 
-Q3 ————————————————————————
+1.Constructor ————————————————————————
+Output: no output on this step
+
+2.Getter ————————————————————————
+Output: no output on this step
+Comment: remember to check if the paper does not exist (null)
+
+3.add and remove Research Paper ————————————————————————
 Output:
 Title:      Triangles and Squares: A preschool analysis
 Authors:    Bobby, Kelly, Jesse, Peter 
@@ -28,10 +32,10 @@ Authors:    Jesse, Dave, Julie, Shelly
 Keywords:   procrastinating, java, compsci 
 Conference: LATIN
 
-Common: be careful on the ArrayList - authors and keywords, using FOR-EACH loop to search
+Comment: be careful on the ArrayList - authors and keywords, using FOR-EACH loop to search
 
 
-Q4 ————————————————————————
+4.getPapersByAuthorAndConference & getPapersByAuthors ————————————————————————
 Output: 
 Title:      Triangles and Squares: A preschool analysis
 Authors:    Bobby, Kelly, Jesse, Peter 
@@ -53,16 +57,15 @@ Authors:    Jesse, Dave, Julie, Shelly
 Keywords:   procrastinating, java, compsci 
 Conference: LATIN
 
-Common: 
+Comment: 
 Needed to add the paper into the arrayList (output is arrayList)
 Created a local ArrayList<ResearchPaper> papers variable
 When we found a paper which matched the author and conference, we added this paper into the papers arrayList
 Return the ArrayList 
 
 
-Q5 ————————————————————————
+5.Tester ————————————————————————
 Output:
-/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=50739:/Applications/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/mia/Desktop/a5/out/production/a5 assign5.PaperDBModel
 Here are the Research Papers in our model right now: 
 Title:      Triangles and Squares: A preschool analysis
 Authors:    Bobby, Kelly, Jesse, Peter 
@@ -181,6 +184,6 @@ null
 Process finished with exit code 0
 
 
-Common: 
+Comment: 
 remember to text existing papers and non existing paper / authors etc.
 When search by authors / conferences etc, need to check if this category exist
