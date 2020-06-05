@@ -158,6 +158,7 @@ Conference: Graph Drawing Conference
 
 Get <I love COMP>
 null
+
 ======================================================
 Let's Test getPapersByAuthor
 Get Cindy's paper: 
@@ -168,6 +169,7 @@ Conference: Graph Drawing Conference
 
 Get Mia's paper: 
 null
+
 ======================================================
 Let's Test getPapersByConference
 Get papers under conference Skynet conference: 
