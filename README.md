@@ -5,13 +5,16 @@ Comments on ResearchPaper with following guide:
 
 
 Q1 ————————————————————————
+
 Output: no output on this step
 
 Q2 ————————————————————————
+
 Output: no output on this step
 Common: remember to check if the paper does not exist (null)
 
 Q3 ————————————————————————
+
 Output:
 Title:      Triangles and Squares: A preschool analysis
 Authors:    Bobby, Kelly, Jesse, Peter 
@@ -37,6 +40,7 @@ Common: be careful on the ArrayList - authors and keywords, using FOR-EACH loop 
 
 
 Q4 ————————————————————————
+
 Output: 
 Title:      Triangles and Squares: A preschool analysis
 Authors:    Bobby, Kelly, Jesse, Peter 
@@ -66,6 +70,7 @@ Return the ArrayList
 
 
 Q5 ————————————————————————
+
 Output:
 /Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=50739:/Applications/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/mia/Desktop/a5/out/production/a5 assign5.PaperDBModel
 Here are the Research Papers in our model right now: 
